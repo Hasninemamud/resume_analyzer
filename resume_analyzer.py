@@ -3,7 +3,7 @@ import json
 
 class ResumeAnalyzer:
     def __init__(self):
-        self.api_key = "  # Replace with your Together AI API key"
+        self.api_key = "d3a24c9d609587cbd378ff3cc2e60fe87248ff6be088057112dfc8cffad62963"
         self.api_url = "https://api.together.ai/v1/chat/completions"
         
     def analyze_resume(self, resume_text, job_description):
